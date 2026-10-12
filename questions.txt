@@ -1,13 +1,44 @@
-# Format: question|option A|option B|option C|option D|correct letter (A-D)
-What is the capital of Australia?|Sydney|Canberra|Melbourne|Perth|B
-Which planet is known as the Red Planet?|Venus|Jupiter|Mars|Mercury|C
-How many continents are there?|5|6|7|8|C
-What is the chemical symbol for water?|H2O|CO2|O2|NaCl|A
-Who painted the Mona Lisa?|Michelangelo|Leonardo da Vinci|Raphael|Van Gogh|B
-What is the largest ocean on Earth?|Atlantic|Indian|Arctic|Pacific|D
-Which language is this quiz written in?|Python|Java|C++|Rust|C
-How many sides does a hexagon have?|5|6|7|8|B
-What is 12 x 12?|122|124|144|148|C
-Which gas do plants absorb from the air?|Oxygen|Nitrogen|Carbon dioxide|Helium|C
-In which year did World War II end?|1939|1942|1945|1950|C
-What is the smallest prime number?|0|1|2|3|C
+# Question file. Lines starting with # are ignored.
+#
+# Multiple choice : MCQ|category|question|A|B|C|D|correct letter
+# True / False    : TF|category|statement|T or F
+#
+# Add your own lines - new categories appear in the menu automatically.
+
+# ---- Science ----
+MCQ|Science|Which planet is known as the Red Planet?|Venus|Jupiter|Mars|Mercury|C
+MCQ|Science|What is the chemical symbol for water?|H2O|CO2|O2|NaCl|A
+MCQ|Science|Which gas do plants absorb from the air?|Oxygen|Nitrogen|Carbon dioxide|Helium|C
+MCQ|Science|How many bones are in an adult human body?|106|206|306|406|B
+TF|Science|Sound travels faster than light.|F
+TF|Science|The Sun is a star.|T
+
+# ---- Geography ----
+MCQ|Geography|What is the capital of Australia?|Sydney|Canberra|Melbourne|Perth|B
+MCQ|Geography|What is the largest ocean on Earth?|Atlantic|Indian|Arctic|Pacific|D
+MCQ|Geography|Which is the longest river in India?|Yamuna|Godavari|Ganga|Krishna|C
+MCQ|Geography|How many continents are there?|5|6|7|8|C
+TF|Geography|Mount Everest is the highest mountain above sea level.|T
+TF|Geography|Africa is bigger than Asia.|F
+
+# ---- Computing ----
+MCQ|Computing|Which language is this quiz written in?|Python|Java|C++|Rust|C
+MCQ|Computing|What does CPU stand for?|Central Processing Unit|Computer Personal Unit|Central Program Utility|Control Process Unit|A
+MCQ|Computing|Which symbol is used to end a statement in C++?|.|:|;|,|C
+MCQ|Computing|Which OOP concept means wrapping data and functions together in a class?|Inheritance|Encapsulation|Overloading|Recursion|B
+TF|Computing|In C++, a class can inherit from another class.|T
+TF|Computing|The cout object is used to read input from the keyboard.|F
+
+# ---- Maths ----
+MCQ|Maths|What is 12 x 12?|122|124|144|148|C
+MCQ|Maths|How many sides does a hexagon have?|5|6|7|8|B
+MCQ|Maths|What is the smallest prime number?|0|1|2|3|C
+MCQ|Maths|What is the square root of 81?|7|8|9|10|C
+TF|Maths|Zero is an even number.|T
+TF|Maths|The number 15 is a prime number.|F
+
+# ---- General ----
+MCQ|General|Who painted the Mona Lisa?|Michelangelo|Leonardo da Vinci|Raphael|Van Gogh|B
+MCQ|General|In which year did World War II end?|1939|1942|1945|1950|C
+MCQ|General|How many days are there in a leap year?|364|365|366|367|C
+TF|General|A week has seven days.|T
